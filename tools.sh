@@ -11,7 +11,7 @@ green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 
-yellow "Process Install Dependencies"
+echo "Process Install Dependencies"
 sleep 1
 apt update -y
 apt upgrade -y
